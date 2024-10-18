@@ -1,0 +1,33 @@
+.projects {
+  background-color: #f1eaea;
+  /* Changed to match the about and home background */
+  min-height: 100vh;
+  /* Keep the full height */
+  padding: 50px 20px;
+  /* Added padding for spacing */
+}
+
+.title {
+  margin-top: 70px;
+  /* Keep the top margin */
+  display: flex;
+  justify-content: center;
+  color: #ff6f61;
+  /* Updated color to match the theme */
+  font-size: 2.5em;
+  /* Increased font size */
+  font-weight: 800;
+  /* Keep the bold weight */
+  margin-bottom: 40px;
+  /* Increased bottom margin for better spacing */
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* Increased gap for better spacing between items */
+  justify-content: center;
+  /* Centered content */
+  text-align: center;
+}

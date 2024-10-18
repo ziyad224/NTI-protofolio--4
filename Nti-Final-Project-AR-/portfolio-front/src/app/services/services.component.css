@@ -1,0 +1,33 @@
+.cards {
+  min-height: 100vh;
+  /* Keep full height */
+  background-color: #f8f0f0;
+  /* Changed background color to match the overall theme */
+  padding: 50px 20px;
+  /* Added padding for spacing */
+}
+
+.title {
+  margin-top: 70px;
+  /* Keep the top margin */
+  display: flex;
+  justify-content: center;
+  color: #ff6f61;
+  /* Updated color to match theme */
+  font-size: 2.5em;
+  /* Increased font size for emphasis */
+  font-weight: 800;
+  /* Keep the bold weight */
+  margin-bottom: 40px;
+  /* Increased bottom margin for better spacing */
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* Increased gap for improved spacing */
+  justify-content: center;
+  /* Centered content */
+  text-align: center;
+}

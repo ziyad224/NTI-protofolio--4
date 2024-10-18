@@ -1,0 +1,114 @@
+/* Main Container */
+.main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* Change to column layout */
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #ffefba, #ffffff);
+  /* Gradient background */
+}
+
+/* Heading 2 */
+.main h2 {
+  color: #4a4a4a;
+  /* Soft dark color */
+  font-size: 2em;
+  /* Increased font size */
+  font-weight: 400;
+  /* Lighter font weight */
+  letter-spacing: 1px;
+  /* Added letter spacing */
+}
+
+/* Span inside Heading 2 */
+.main h2 span {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ff6f61;
+  /* A vibrant coral color */
+  font-size: 3.5em;
+  /* Larger font size */
+  font-weight: 700;
+  /* Bold font weight */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  /* Subtle text shadow */
+}
+
+/* Heading 3 */
+.main h3 {
+  color: #4a4a4a;
+  /* Soft dark color */
+  font-size: 2.5em;
+  /* Larger font size */
+  font-weight: 500;
+  /* Normal font weight */
+  margin: 20px 0;
+  /* Vertical margin */
+}
+
+/* Button */
+.main-btn {
+  color: #ffffff;
+  /* White text */
+  background-color: #ff6f61;
+  /* Coral color */
+  text-decoration: none;
+  font-size: 1.2em;
+  /* Increased font size */
+  font-weight: 600;
+  /* Increased font weight */
+  display: inline-block;
+  padding: 0.75em 2.5em;
+  /* Adjusted padding */
+  border-radius: 30px;
+  /* More rounded button */
+  border: 2px solid #ff6f61;
+  /* Border to match the button color */
+  transition: all 0.4s ease;
+  /* Smooth transition for hover effect */
+}
+
+/* Button Hover Effect */
+.main-btn:hover {
+  background-color: #ffffff;
+  /* White background on hover */
+  color: #ff6f61;
+  /* Coral text on hover */
+  transform: translateY(-2px);
+  /* Slight lift effect */
+}
+
+/* Social Media Links */
+.social-media a {
+  color: #ff6f61;
+  /* Coral color for links */
+  font-size: 2em;
+  /* Large font size */
+  padding: 20px;
+  /* Spacing around icons */
+  transition: color 0.3s;
+  /* Smooth color transition */
+}
+
+/* Social Media Links Hover Effect */
+.social-media a:hover {
+  color: #4a4a4a;
+  /* Dark color on hover */
+}
+
+/* Title Section */
+.title {
+  display: flex;
+  justify-content: center;
+  color: #ff6f61;
+  /* Coral color */
+  font-size: 2.8em;
+  /* Increased font size */
+  font-weight: 800;
+  /* Bold font weight */
+  margin-bottom: 20px;
+  /* Reduced bottom margin */
+}
